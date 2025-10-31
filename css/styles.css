@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+body {
+  background-color: lavenderblush;
+  font-family: Georgia, "Times New Roman", serif;
+  margin: 0;
+  height: 100vh;
+  line-height: 1.5;
+}
+
+p {
+  color: #8e005b;
+  font-size: 20px;
+  text-align: center;
+  width: 960px;
+  margin: 90px auto 0;
+}
+
+h1 {
+  color: #8e005b;
+  width: 960px;
+  margin: 30px auto 0;
+  text-align: center;
+}
+
+h2 {
+  color: #8e005b;
+  text-align: center;
+  margin: 0 auto;
+  width: 100px;
+}
+
+nav li {
+  font-size: 20px;
+  color: #8e005b;
+  display: inline;
+  text-decoration: none;
+  margin-left: 120px;
+}
+
+a:link,
+a:visited {
+  color: #8e005b;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
+.img {
+  width: 320px;
+  margin-top: 90px;
+}
+
+#gabi_image {
+  width: 350px;
+  float: left;
+  margin-left: 300px;
+}
+
+.float {
+  float: left;
+}
+
+#float_paragraph {
+  width: 300px;
+}
+
+#paragraph_color {
+  color: #8e005b;
+}
+
+#heading_colors {
+  background-color: beige;
+}
+
+.image-container,
+.photoshops {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  padding: 0;
+  margin-right: 0;
+}
+
+.contact_image {
+  width: 450px;
+}
+
+#apparel,
+#paraapparel,
+#contact,
+#thanks,
+#email,
+#phone,
+#social,
+#resume,
+#graphic {
+  width: 960px;
+  margin: 30px auto 0;
+  text-align: center;
+}
+
+#resinfo {
+  width: 450px;
+  margin: 30px auto 0;
+  text-align: center;
+  margin-left: 100px;
+}
+
+iframe {
+  width: 450px;
+  margin-left: 250px;
+  margin-top: 30px;
+}
+
+.resumefloat {
+  float: left;
+}
